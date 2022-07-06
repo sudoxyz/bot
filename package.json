@@ -1,27 +1,16 @@
 {
-  "name": "guidebot",
-  "version": "2.1.0",
-  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "name": "bot",
+  "version": "1",
+  "description": "",
   "main": "index.js",
+
+
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
     "node": ">=16"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnIdiotsGuide/guidebot.git"
-  },
-  "author": "Evelyne Lachance <eslachance@gmail.com> (http://evie.codes)",
-  "contributors": [
-    "York (http://anidiots.guide)"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AnIdiotsGuide/guidebot/issues"
-  },
-  "homepage": "https://github.com/AnIdiotsGuide/guidebot#readme",
   "dependencies": {
     "@discordjs/builders": "^0.2.0",
     "@sapphire/time-utilities": "^1.7.4",
@@ -39,4 +28,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0"
   }
+
+  
 }
